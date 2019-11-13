@@ -146,11 +146,11 @@ Light:
   m_GameObject: {fileID: 92268557}
   m_Enabled: 1
   serializedVersion: 9
-  m_Type: 1
+  m_Type: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
+  m_Range: 66.8
+  m_SpotAngle: 79.59
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -187,7 +187,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -204,13 +204,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92268557}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 3.5, y: 10, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &132753925
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,8 +287,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132753925}
-  m_LocalRotation: {x: 0.45304796, y: -0, z: -0, w: 0.89148617}
-  m_LocalPosition: {x: 3.58, y: 5.54, z: -9.48}
+  m_LocalRotation: {x: -0.7147096, y: 0.0008365172, z: -0.00085640966, w: -0.69942033}
+  m_LocalPosition: {x: 3.6208265, y: 8.269881, z: -3.4724958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -329,7 +329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stagePrefab: {fileID: 2484727254656253405, guid: c9937faeda1a3cf458fc2a22ccac1ec4,
     type: 3}
-  originalMat: {fileID: 2100000, guid: 5c697c87de88820408f90ee28fbe8329, type: 2}
 --- !u!114 &270814810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +389,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e7c9f0f8f141199a5835375d2ef4ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DirectionList:
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: -1, y: 0}
+  - {x: 1, y: 0}
+  - {x: -1, y: -1}
+  - {x: 0, y: -1}
+  - {x: 1, y: -1}
   cellPrefab: {fileID: 6587115391991588152, guid: d2892fdd843e4944289675280abb7696,
     type: 3}
 --- !u!114 &270814814
@@ -404,3 +412,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68b5eccd85de98e4fb670a49fbe2cdec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  originalMat: {fileID: 2100000, guid: 5c697c87de88820408f90ee28fbe8329, type: 2}

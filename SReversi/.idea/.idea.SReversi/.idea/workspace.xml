@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Othello.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2D/OthelloBoard.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,6 +83,8 @@
       <workItem from="1572340111710" duration="327000" />
       <workItem from="1572340665938" duration="3206000" />
       <workItem from="1572932683049" duration="4797000" />
+      <workItem from="1573530561274" duration="855000" />
+      <workItem from="1573542158007" duration="6031000" />
     </task>
     <servers />
   </component>
